@@ -1,0 +1,18 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# other files
+bin
+.envrc.local
+.DS_Store
+temp
+
+# ignore build directory for https://github.com/terraform-aws-modules/terraform-aws-notify-slack
+builds
+
+# Ignore csv files downloaded for testing
+*.csv
